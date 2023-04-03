@@ -3,12 +3,23 @@ My name is Bobby and this is my second case study! Hoping I can implement my ski
 
 
 # Ask
+Everything going to be anaylzed using R Studio Desktop
 
 1. What are some trends in smart device usage?
 
 2. How could these trends apply to Bellabeat customers?
 
 3. How could these trends help influence Bellabeat marketing strategy?
+
+
+# Prepare
+
+Download the dataset from Kaggle;
+We will be working with daily_activities, daily_calories, sleep_day, daily_steps, daily_intensities and weightloginfo
+
+Add data frames to match the file name
+
+
 
 
 
