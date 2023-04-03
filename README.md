@@ -18,8 +18,9 @@ Download the dataset from Kaggle;
 We will be working with daily_activities, daily_calories, sleep_day, daily_steps, daily_intensities and weightloginfo
 
 Add data frames to match the file name
-
-
-
-
+daily_intensities <-read.csv("dailyIntensities_merged.csv")
+daily_activity <- read.csv("dailyActivity_merged.csv")
+daily_calories <- read.csv("dailyCalories_merged.csv")
+sleep_day <- read.csv("sleepDay_merged.csv")
+weight_log <-read.csv("weightloginfo_merged.csv")
 
