@@ -16,31 +16,22 @@ Everything going to be anaylzed using R Studio Desktop
 
 Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashnic/fitbit?resource=download)
 (R Studio Desktop)
-We will be working with daily_activities,
-
-daily_calories, 
-
-sleep_day,
-
-daily_steps,
-
-daily_intensities
-
-and weightloginfo (Note they don't have to be the same as mine)
 
 Add data frames to match the file name
 
 
 <details><Show R>daily_intensities <-read.csv("dailyIntensities_merged.csv")</details>
                               
+<details>
+  <summary>Show R code</summary>
 
-daily_activity <- read.csv("dailyActivity_merged.csv")
+  ```R
+  daily_intensities <- read.csv("dailyIntensities_merged.csv")
+  daily_activity <- read.csv("dailyActivity_merged.csv")
+  daily_calories <- read.csv("dailyCalories_merged.csv")
+  sleep_day <- read.csv("sleepDay_merged.csv")
+  weight_log <- read.csv("weightloginfo_merged.csv")
 
-daily_calories <- read.csv("dailyCalories_merged.csv")
-
-sleep_day <- read.csv("sleepDay_merged.csv")
-
-weight_log <-read.csv("weightloginfo_merged.csv")
 
 Check colnames to see if they all match
 
