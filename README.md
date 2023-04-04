@@ -32,7 +32,5 @@ Add data frames/import to match the file name
   sleep_day <- read.csv("sleepDay_merged.csv")
   weight_log <- read.csv("weightloginfo_merged.csv")
                 
- Note these are the files I will be using for this analysis you could use other files
                    
-
-#Process/Cleaning             
+           
