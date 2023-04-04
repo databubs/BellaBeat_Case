@@ -31,7 +31,7 @@ and weightloginfo (Note they don't have to be the same as mine)
 Add data frames to match the file name
 
 
-<details><Show R>daily_intensities <-read.csv("dailyIntensities_merged.csv")
+<details><Show R>daily_intensities <-read.csv("dailyIntensities_merged.csv")</details>
                               
 
 daily_activity <- read.csv("dailyActivity_merged.csv")
