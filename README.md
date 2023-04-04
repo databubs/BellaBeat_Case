@@ -14,8 +14,14 @@ Everything going to be anaylzed using R Studio Desktop
 
 # Prepare
 
-Download the dataset from Kaggle;
-We will be working with daily_activities, daily_calories, sleep_day, daily_steps, daily_intensities and weightloginfo
+Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashnic/fitbit?resource=download)
+
+We will be working with daily_activities,
+daily_calories, 
+sleep_day,
+daily_steps,
+daily_intensities
+and weightloginfo
 
 Add data frames to match the file name
 
