@@ -17,10 +17,11 @@ Everything going to be anaylzed using R Studio Desktop
 Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashnic/fitbit?resource=download)
 (R Studio Desktop)
 
-Extracted to a folder and imported through R studio
-C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study
+Open R Studio Desktop and create a new project. Set the project's working directory to the folder where you saved the dataset
+C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study is mine
 
-Add data frames/import to match the file name
+Add data frames/import to match the file name (Code Below)
+Ill be using these data frames for my anaylsis. You could use different ones!
                               
 ```R
 daily_intensities <- read.csv("dailyIntensities_merged.csv")
