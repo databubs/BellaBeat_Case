@@ -29,3 +29,9 @@ sleep_day <- read.csv("sleepDay_merged.csv")
 
 weight_log <-read.csv("weightloginfo_merged.csv")
 
+Now we have them in our data frame we should check the alignment/format of these collums so we could merge it!
+colnames(daily_intensities, daily_activity, and so fourth)
+As we can see they all have a similar collumn "ID" so we can merge it at ease later on.
+
+
+# Proccess/Cleaning Using R Studio Desktop
