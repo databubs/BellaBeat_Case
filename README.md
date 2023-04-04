@@ -33,7 +33,7 @@ daily_activity <- read.csv("dailyActivity_merged.csv")
 daily_calories <- read.csv("dailyCalories_merged.csv")
 sleep_day <- read.csv("sleepDay_merged.csv")
 weight_log <- read.csv("weightloginfo_merged.csv")
-</details>              
+<details/>              
                 
            
 # Process/Clean
