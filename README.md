@@ -29,7 +29,7 @@ daily_intensities
 and weightloginfo (Note they don't have to be the same as mine)
 
 Add data frames to match the file name
-<details>
+
 
 daily_intensities <-read.csv("dailyIntensities_merged.csv")
                               
