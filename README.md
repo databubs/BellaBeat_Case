@@ -18,10 +18,10 @@ Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashni
 (R Studio Desktop)
 
 Open R Studio Desktop and create a new project. Set the project's working directory to the folder where you saved the dataset
-C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study is mine
+C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study
 
-Add data frames/import to match the file name (Code Below)
-Ill be using these data frames for my anaylsis. You could use different ones!
+We need to add data frames to match each CSV file we are working with
+Ill be using these data frames for my anaylsis. You could use different ones.
                               
 ```R
 daily_intensities <- read.csv("dailyIntensities_merged.csv")
@@ -30,6 +30,13 @@ daily_calories <- read.csv("dailyCalories_merged.csv")
 sleep_day <- read.csv("sleepDay_merged.csv")
 weight_log <- read.csv("weightloginfo_merged.csv")
 ```     
+
+Check all collums to get ready for merge
+colnames(daily_intensities)
+colnames(daily_activity)
+colnames(daily_calories)
+colnames(sleep_day)
+colname(weight_log)
 
 # Process/Clean Data
 
