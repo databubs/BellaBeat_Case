@@ -18,9 +18,6 @@ Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashni
 (R Studio Desktop)
 
 Add data frames to match the file name
-
-
-<details><Show R>daily_intensities <-read.csv("dailyIntensities_merged.csv")</details>
                               
 <details>
   <summary>Show R code</summary>
@@ -31,9 +28,8 @@ Add data frames to match the file name
   daily_calories <- read.csv("dailyCalories_merged.csv")
   sleep_day <- read.csv("sleepDay_merged.csv")
   weight_log <- read.csv("weightloginfo_merged.csv")
-
-
-Check colnames to see if they all match
+                
+        
 
 
 # Proccess/Cleaning Using R Studio Desktop
