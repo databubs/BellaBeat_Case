@@ -14,8 +14,6 @@ Everything going to be anaylzed using R Studio Desktop
 
 
 # Prepare
-For more information, see [Analysis](https://github.com/databubs/BellaBeat_Case/blob/main/analysis.md).
-
 Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashnic/fitbit?resource=download)
 (R Studio Desktop)
 
@@ -33,7 +31,9 @@ daily_activity <- read.csv("dailyActivity_merged.csv")
 daily_calories <- read.csv("dailyCalories_merged.csv")
 sleep_day <- read.csv("sleepDay_merged.csv")
 weight_log <- read.csv("weightloginfo_merged.csv")
-<details/>              
+</details> -->
+```              
+              
                 
            
 # Process/Clean
