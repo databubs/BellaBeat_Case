@@ -31,13 +31,14 @@ sleep_day <- read.csv("sleepDay_merged.csv")
 weight_log <- read.csv("weightloginfo_merged.csv")
 ```     
 
-Check all collums to get ready for merge
+## Check all collums to get ready for merge
+```R
 colnames(daily_intensities)
 colnames(daily_activity)
 colnames(daily_calories)
 colnames(sleep_day)
 colname(weight_log)
-
+```
 # Process/Clean Data
 
                        
