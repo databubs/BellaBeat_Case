@@ -17,7 +17,10 @@ Everything going to be anaylzed using R Studio Desktop
 Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashnic/fitbit?resource=download)
 (R Studio Desktop)
 
-Add data frames to match the file name
+Extracted to a folder and imported through R studio
+C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study
+
+Add data frames/import to match the file name
                               
 <details>
   <summary>Show R code</summary>
