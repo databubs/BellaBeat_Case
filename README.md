@@ -22,7 +22,7 @@ C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study
 
 Add data frames/import to match the file name
                               
-
+'''R
 daily_intensities <- read.csv("dailyIntensities_merged.csv")
 daily_activity <- read.csv("dailyActivity_merged.csv")
 daily_calories <- read.csv("dailyCalories_merged.csv")
