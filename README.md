@@ -44,8 +44,11 @@ colname(weight_log)
 
 
 # Process/Clean Data
-Check for any nulls
+Check for any nulls - If it comes out as TRUE then you have nulls, false = no nulls
 is.na(daily_activity)
+is.na(daily_intensities)
+is.na(daily_calories)
+is.na(weight_log)
 ```
 
                        
