@@ -44,6 +44,8 @@ colname(weight_log)
 
 
 # Process/Clean Data
+
+```R
 Check for any nulls - If it comes out as TRUE then you have nulls, false = no nulls
 
 is.na(daily_activity)
