@@ -43,8 +43,6 @@ colname(weight_log)
 ```
 
 # Process/Clean Data
-
-```R
 Check for any nulls
 ```R
 is.na(daily_activity)
