@@ -31,6 +31,16 @@ sleep_day <- read.csv("sleepDay_merged.csv")
 weight_log <- read.csv("weightloginfo_merged.csv")
 ```     
 
+```R
+Id ActivityDate TotalSteps TotalDistance TrackerDistance
+  [1,] FALSE        FALSE      FALSE         FALSE           FALSE
+  [2,] FALSE        FALSE      FALSE         FALSE           FALSE
+  [3,] FALSE        FALSE      FALSE         FALSE           FALSE
+  [4,] FALSE        FALSE      FALSE         FALSE           FALSE
+  [5,] FALSE        FALSE      FALSE         FALSE           FALSE
+  [6,] FALSE        FALSE      FALSE         FALSE           FALSE
+```
+
 ## See what collums they provide
 ```R
 colnames(daily_intensities)
