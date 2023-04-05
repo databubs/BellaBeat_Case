@@ -69,6 +69,13 @@ duplicates <= TRUE
 ```
 
 
+We will be changing the date format
+Convert ActivityDate into date format and add a column for day of the week
+
+```R
+daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
+```
+
 
 
 
