@@ -42,9 +42,9 @@ colnames(sleep_day)
 colname(weight_log)
 ```
 
+
 # Process/Clean Data
 Check for any nulls
-```R
 is.na(daily_activity)
 ```
 
