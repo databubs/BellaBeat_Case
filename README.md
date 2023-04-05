@@ -57,7 +57,20 @@ is.na(daily_calories)
 is.na(weight_log)
 ```
 
-                       
-              
+```R
+Check for duplicates
+duplicates <- duplicated(daily_activity)
+duplicates <- duplicated(daily_intensities)
+duplicates <- duplicated(daily_calories)
+duplicates <- duplicated(weight_log)
+duplicates <- duplicated(sleep_day)
+duplicates <= TRUE
+
+```
+
+
+
+
+
                 
            
