@@ -84,12 +84,11 @@ duplicates <= TRUE
 
 ```
 
-
-Seems to have a slight problem refering to the date format
-
 ```R
+Seems to have a slight problem refering to the date format
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
+
 
 
 
