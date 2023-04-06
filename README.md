@@ -12,6 +12,21 @@ Everything going to be anaylzed using R Studio Desktop
 
 3. How could these trends help influence Bellabeat marketing strategy?
 
+Install packages required:
+
+```{r}
+install.packages('tidyverse')
+library(tidyverse)
+```
+
+```R
+install.packages('ggplot2')
+```
+
+
+
+
+
 
 # Prepare
 Download the dataset from Kaggle; [HERE](https://www.kaggle.com/datasets/arashnic/fitbit?resource=download)
