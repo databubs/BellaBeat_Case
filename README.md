@@ -93,5 +93,7 @@ daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(Activity
 
 
 
+
+
                 
            
