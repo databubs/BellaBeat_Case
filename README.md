@@ -164,20 +164,6 @@ summary(daily_steps$StepTotal)
  Mean   :192.8        Mean   : 13.56      Mean   : 21.16   
  3rd Qu.:264.0        3rd Qu.: 19.00      3rd Qu.: 32.00   
  Max.   :518.0        Max.   :143.00      Max.   :210.00   
- SedentaryActiveDistance LightActiveDistance ModeratelyActiveDistance
- Min.   :0.000000        Min.   : 0.000      Min.   :0.0000          
- 1st Qu.:0.000000        1st Qu.: 1.945      1st Qu.:0.0000          
- Median :0.000000        Median : 3.365      Median :0.2400          
- Mean   :0.001606        Mean   : 3.341      Mean   :0.5675          
- 3rd Qu.:0.000000        3rd Qu.: 4.782      3rd Qu.:0.8000          
- Max.   :0.110000        Max.   :10.710      Max.   :6.4800          
- VeryActiveDistance
- Min.   : 0.000    
- 1st Qu.: 0.000    
- Median : 0.210    
- Mean   : 1.503    
- 3rd Qu.: 2.053    
- Max.   :21.920
 ```
 
 
