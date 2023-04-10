@@ -57,7 +57,7 @@ colnames(daily_calories)
 colnames(sleep_day)
 colname(weight_log)
 ```
-
+Notice how all the dataframes have one similar collumn?
 
 # Process/Clean Data
 
@@ -85,9 +85,13 @@ duplicates <= TRUE
 ```
 
 ```R
-Seems to have a slight problem refering to the date format
+Seems to have a slight problem refering to the date format Is giving me errors:
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
+
+``R
+Merge them together
+
 
 
 
