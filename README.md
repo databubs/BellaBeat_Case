@@ -104,6 +104,13 @@ Seems to have a slight problem refering to the date format in daily_activity - n
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
 
+### CHECK POINT
+To summarize what we did so far:
+Loaded CSV files and imported
+Added Data Frames to match file names
+
+
+Cleaning the CSV file by checking for duplicates, and nulls.
 
 
 
