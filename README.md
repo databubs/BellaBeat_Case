@@ -80,7 +80,7 @@ duplicates <- duplicated(daily_intensities)
 duplicates <- duplicated(daily_calories)
 duplicates <- duplicated(weight_log)
 duplicates <- duplicated(sleep_day)
-duplicates <= TRUE
+
 
 ```
 
