@@ -53,8 +53,9 @@ Open R Studio Desktop and create a new project. Set the project's working direct
 C:\Users\YOUR_NAME\Desktop\BellaBeat_Case_Study
 
 We need to add data frames to match each CSV file we are working with
-Ill be using these data frames for my anaylsis. You could use different ones.
-                              
+Ill be using these data frames for my anaylsis. You can use different ones.
+
+Creating Data Frames
 ```R
 daily_intensities <- read.csv("dailyIntensities_merged.csv")
 daily_activity <- read.csv("dailyActivity_merged.csv")
@@ -75,7 +76,7 @@ colname(weight_log)
 ```
 Notice how all the dataframes have one similar collumn?
 
-# Process/Clean Data
+# Process/Cleaning Data
 
 Check for any nulls - If it comes out as TRUE then you have nulls, false = no nulls
 ```R
@@ -98,7 +99,7 @@ duplicates <- duplicated(sleep_day)
 print(duplicates)
 
 ```
-Seems to have a slight problem refering to the date format in daily_activity - numberical error
+Seems to have a slight problem refering to the date format in daily_activity - numberical error when trying to merge!
 ```R
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
