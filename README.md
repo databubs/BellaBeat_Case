@@ -85,12 +85,11 @@ duplicates <= TRUE
 ```
 
 ```R
-Seems to have a slight problem refering to the date format Is giving me errors:
+Seems to have a slight problem refering to the date format in daily_activity - numberical error
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
 
-``R
-Merge them together
+
 
 
 
