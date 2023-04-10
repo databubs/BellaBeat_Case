@@ -114,14 +114,15 @@ Check for nulls and duplicates ✔️
 
 
 
-# Obersvations
+# Understanding the data
 ```r
 daily_activity %>%  
   select(TotalSteps,
          TotalDistance,
          SedentaryMinutes) %>%
   summary()
-  
+
+ 
  TotalSteps    TotalDistance    SedentaryMinutes
  Min.   :    0   Min.   : 0.000   Min.   :   0.0  
  1st Qu.: 3790   1st Qu.: 2.620   1st Qu.: 729.8  
@@ -129,14 +130,55 @@ daily_activity %>%
  Mean   : 7638   Mean   : 5.490   Mean   : 991.2  
  3rd Qu.:10727   3rd Qu.: 7.713   3rd Qu.:1229.5  
  Max.   :36019   Max.   :28.030   Max.   :1440.0  
+```
+ 
+ 
+ TotalSleepRecords TotalMinutesAsleep TotalTimeInBed 
+ Min.   :1.000     Min.   : 58.0      Min.   : 61.0  
+ 1st Qu.:1.000     1st Qu.:361.0      1st Qu.:403.0  
+ Median :1.000     Median :433.0      Median :463.0  
+ Mean   :1.119     Mean   :419.5      Mean   :458.6  
+ 3rd Qu.:1.000     3rd Qu.:490.0      3rd Qu.:526.0  
+ Max.   :3.000     Max.   :796.0      Max.   :961.0
+
+
+summary(daily_steps$StepTotal)
+ Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      0    3790    7406    7638   10727   36019 
+
+
+ summary(daily_intensities)
+       Id            ActivityDay        SedentaryMinutes
+ Min.   :1.504e+09   Length:940         Min.   :   0.0  
+ 1st Qu.:2.320e+09   Class :character   1st Qu.: 729.8  
+ Median :4.445e+09   Mode  :character   Median :1057.5  
+ Mean   :4.855e+09                      Mean   : 991.2  
+ 3rd Qu.:6.962e+09                      3rd Qu.:1229.5  
+ Max.   :8.878e+09                      Max.   :1440.0  
+ LightlyActiveMinutes FairlyActiveMinutes VeryActiveMinutes
+ Min.   :  0.0        Min.   :  0.00      Min.   :  0.00   
+ 1st Qu.:127.0        1st Qu.:  0.00      1st Qu.:  0.00   
+ Median :199.0        Median :  6.00      Median :  4.00   
+ Mean   :192.8        Mean   : 13.56      Mean   : 21.16   
+ 3rd Qu.:264.0        3rd Qu.: 19.00      3rd Qu.: 32.00   
+ Max.   :518.0        Max.   :143.00      Max.   :210.00   
+ SedentaryActiveDistance LightActiveDistance ModeratelyActiveDistance
+ Min.   :0.000000        Min.   : 0.000      Min.   :0.0000          
+ 1st Qu.:0.000000        1st Qu.: 1.945      1st Qu.:0.0000          
+ Median :0.000000        Median : 3.365      Median :0.2400          
+ Mean   :0.001606        Mean   : 3.341      Mean   :0.5675          
+ 3rd Qu.:0.000000        3rd Qu.: 4.782      3rd Qu.:0.8000          
+ Max.   :0.110000        Max.   :10.710      Max.   :6.4800          
+ VeryActiveDistance
+ Min.   : 0.000    
+ 1st Qu.: 0.000    
+ Median : 0.210    
+ Mean   : 1.503    
+ 3rd Qu.: 2.053    
+ Max.   :21.920
  ```
 
-
-
-
-
-
-
+As we just found out we have daily_intensities with LightlyActive, FairyActive, and Very Active
 
 
 ![alt text](https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/278375259_3173522536223995_4691224045261329961_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6vzpvMf6xHgAX8vRKT0&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfAQYGXTLR97gS-fhBx9uvhlabErznUf6e1wSb-geUCNjQ&oe=64389416)
