@@ -74,7 +74,7 @@ colnames(daily_calories)
 colnames(sleep_day)
 colname(weight_log)
 ```
-Notice how all the dataframes have one similar collumn?
+Notice how all the dataframes have one similar collumn? BINGO! "ID" we can later on merge them together!
 
 # Process/Cleaning Data
 
@@ -103,6 +103,7 @@ Seems to have a slight problem refering to the date format in daily_activity - n
 ```R
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
+
 
 
 
