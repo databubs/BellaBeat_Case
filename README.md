@@ -121,9 +121,15 @@ daily_activity %>%
          TotalDistance,
          SedentaryMinutes) %>%
   summary()
-```
-
-
+  
+ TotalSteps    TotalDistance    SedentaryMinutes
+ Min.   :    0   Min.   : 0.000   Min.   :   0.0  
+ 1st Qu.: 3790   1st Qu.: 2.620   1st Qu.: 729.8  
+ Median : 7406   Median : 5.245   Median :1057.5  
+ Mean   : 7638   Mean   : 5.490   Mean   : 991.2  
+ 3rd Qu.:10727   3rd Qu.: 7.713   3rd Qu.:1229.5  
+ Max.   :36019   Max.   :28.030   Max.   :1440.0  
+ ```
 
 
 
