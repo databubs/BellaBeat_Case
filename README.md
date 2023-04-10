@@ -74,8 +74,8 @@ Notice how all the dataframes have one similar collumn?
 
 # Process/Clean Data
 
-```R
 Check for any nulls - If it comes out as TRUE then you have nulls, false = no nulls
+```R
 
 is.na(daily_activity)
 
@@ -85,9 +85,8 @@ is.na(daily_calories)
 
 is.na(weight_log)
 ```
-
-```R
 Check for duplicates
+```R
 duplicates <- duplicated(daily_activity)
 duplicates <- duplicated(daily_intensities)
 duplicates <- duplicated(daily_calories)
@@ -96,9 +95,8 @@ duplicates <- duplicated(sleep_day)
 print(duplicates)
 
 ```
-
-```R
 Seems to have a slight problem refering to the date format in daily_activity - numberical error
+```R
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
 
