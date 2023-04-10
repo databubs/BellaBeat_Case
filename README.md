@@ -1,6 +1,3 @@
-![alt text](https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/278375259_3173522536223995_4691224045261329961_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6vzpvMf6xHgAX8vRKT0&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfAQYGXTLR97gS-fhBx9uvhlabErznUf6e1wSb-geUCNjQ&oe=64389416)
-
-
 # Overview
 This case study analyzes trends in smart device usage and explores how these trends could apply to Bellabeat customers. By analyzing data from fitness trackers, sleep trackers, and other smart devices, we aim to identify insights that can help inform Bellabeat's marketing strategy.
 My name is Bobby and this is my second case study! Hoping I can implement my skills and experience working with the first case study and so fourth. You can contact me at "CHIENG@LIVE.CA" if you have any questions
@@ -113,6 +110,7 @@ Added Data Frames to match file names ✔️
 
 Check for nulls and duplicates ✔️
 
+Prepare to merge visulize! Fun part
 
 
 
@@ -124,6 +122,8 @@ Check for nulls and duplicates ✔️
 
 
 
+
+![alt text](https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/278375259_3173522536223995_4691224045261329961_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6vzpvMf6xHgAX8vRKT0&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfAQYGXTLR97gS-fhBx9uvhlabErznUf6e1wSb-geUCNjQ&oe=64389416)
 
                 
            
