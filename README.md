@@ -101,17 +101,27 @@ Seems to have a slight problem refering to the date format in daily_activity - n
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
 
+
 # CHECK POINT
-This is a check point to remind you to keep going and what you have done so far!
+
+This is a check point to remind yourself what you have done so far :)
+
+Check each collums of the data frame to make sure they can merge using "ID" 
 
 Loaded CSV files and imported using R Studio  ✔️
 
-Added Data Frames to match file names ✔️
-
 Check for nulls and duplicates ✔️
 
-Prepare to merge visulize! Fun part
 
+
+# Obersvations
+```r
+daily_activity %>%  
+  select(TotalSteps,
+         TotalDistance,
+         SedentaryMinutes) %>%
+  summary()
+```
 
 
 
