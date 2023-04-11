@@ -39,12 +39,12 @@ library(ggplot2)
 insta..packages('dplyr')
 library(dplyr)
 ```
-(Filters, organizes, and can muutate columns)
+(Filters, organizes, mutates desired columns)
 ```r
 install.packages("skimr")
 library(skimr)
 ```
-(Reads data much easier for cleaning)
+(Reads data for cleaning quicker)
 
 
 # Prepare
@@ -106,24 +106,32 @@ Seems to have a slight problem refering to the date format in daily_activity - n
 daily_activity <- daily_activity %>% mutate( Weekday = weekdays(as.Date(ActivityDate, "%m/%d/%Y")))
 ```
 
+Data Summary
+```R
+skim_without_charts(daily_activity)
+skim_without_charts(daily_calories)
+skim_without_charts(daily_intensities)
+skim_without_charts(daily_steps)
+skim_without_charts(sleep_day)
+skim_without_charts(weight_log)
+```
+
 
 # CHECK POINT
 
 This is a check point to remind yourself what you have done so far :)
 
-Check each collums of the data frame to make sure they can merge using "ID" 
-
 Loaded CSV files and imported using R Studio  ✔️
 
 Check for nulls and duplicates ✔️
 
+Summarize and familarize yourself within each column ✔️
+
+Double checked colnames and made sure they are mergable ✔️
 
 
-# Checking EACH dataframe of CSV
+# Merge
 
-```
-# Merge together
-So from what I am understanding we can merge files together such as daily_activities and
 
 ![alt text](https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/278375259_3173522536223995_4691224045261329961_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6vzpvMf6xHgAX8vRKT0&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfAQYGXTLR97gS-fhBx9uvhlabErznUf6e1wSb-geUCNjQ&oe=64389416)
 
