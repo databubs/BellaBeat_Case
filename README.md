@@ -66,10 +66,9 @@ sleep_day <- read.csv("sleepDay_merged.csv")
 weight_log <- read.csv("weightloginfo_merged.csv")
 ```     
 
-
-## See what collums they provide
-
 ```R
+ See what collums they provide
+
 colnames(daily_intensities)
 colnames(daily_activity)
 colnames(daily_calories)
