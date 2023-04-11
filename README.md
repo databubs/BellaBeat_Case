@@ -27,22 +27,24 @@ Everything going to be anaylzed using R Studio Desktop
 install.packages('tidyverse')
 library(tidyverse)
 ```
+(Tidying codes)
 
 ```R
 install.packages('ggplot2')
 library(ggplot2)
 ```
+(Visulization charts ranging to bar, and pies.)
 
 ```r
 insta..packages('dplyr')
 library(dplyr)
 ```
-
+(Filters, organizes, and can muutate columns)
 ```r
 install.packages("skimr")
 library(skimr)
 ```
-
+(Reads data much easier for cleaning)
 
 
 # Prepare
@@ -118,55 +120,7 @@ Check for nulls and duplicates ✔️
 
 
 # Checking EACH dataframe of CSV
-```r
-daily_activity %>%  
-  select(TotalSteps,
-         TotalDistance,
-         SedentaryMinutes) %>%
-  summary()
 
- 
- TotalSteps    TotalDistance    SedentaryMinutes
- Min.   :    0   Min.   : 0.000   Min.   :   0.0  
- 1st Qu.: 3790   1st Qu.: 2.620   1st Qu.: 729.8  
- Median : 7406   Median : 5.245   Median :1057.5  
- Mean   : 7638   Mean   : 5.490   Mean   : 991.2  
- 3rd Qu.:10727   3rd Qu.: 7.713   3rd Qu.:1229.5  
- Max.   :36019   Max.   :28.030   Max.   :1440.0  
-```
- 
-```r
- TotalSleepRecords TotalMinutesAsleep TotalTimeInBed 
- Min.   :1.000     Min.   : 58.0      Min.   : 61.0  
- 1st Qu.:1.000     1st Qu.:361.0      1st Qu.:403.0  
- Median :1.000     Median :433.0      Median :463.0  
- Mean   :1.119     Mean   :419.5      Mean   :458.6  
- 3rd Qu.:1.000     3rd Qu.:490.0      3rd Qu.:526.0  
- Max.   :3.000     Max.   :796.0      Max.   :961.0
-
-
-summary(daily_steps$StepTotal)
- Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-      0    3790    7406    7638   10727   36019 
-     
-```
-
-```r
- summary(daily_intensities)
-       Id            ActivityDay        SedentaryMinutes
- Min.   :1.504e+09   Length:940         Min.   :   0.0  
- 1st Qu.:2.320e+09   Class :character   1st Qu.: 729.8  
- Median :4.445e+09   Mode  :character   Median :1057.5  
- Mean   :4.855e+09                      Mean   : 991.2  
- 3rd Qu.:6.962e+09                      3rd Qu.:1229.5  
- Max.   :8.878e+09                      Max.   :1440.0  
- LightlyActiveMinutes FairlyActiveMinutes VeryActiveMinutes
- Min.   :  0.0        Min.   :  0.00      Min.   :  0.00   
- 1st Qu.:127.0        1st Qu.:  0.00      1st Qu.:  0.00   
- Median :199.0        Median :  6.00      Median :  4.00   
- Mean   :192.8        Mean   : 13.56      Mean   : 21.16   
- 3rd Qu.:264.0        3rd Qu.: 19.00      3rd Qu.: 32.00   
- Max.   :518.0        Max.   :143.00      Max.   :210.00   
 ```
 # Merge together
 So from what I am understanding we can merge files together such as daily_activities and
