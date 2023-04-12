@@ -141,7 +141,7 @@ merged_data <- merge(merged_data, weight_log, by="Id")
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Plot%20daily%20sedentary%20minutes%20and%20calories%20burned.png)
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Daily_Calories_Steps.png)
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/TOTALSTEPS.png)
-![alt text]https://github.com/databubs/BellaBeat_Case/blob/main/Weight_LOG.png)
+![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Weight_LOG.png)
 
 Suggestions:
 
