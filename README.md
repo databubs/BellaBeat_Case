@@ -133,7 +133,8 @@ Double checked colnames and made sure they are mergable ✔️
 ```r
 merged_data <- merge(combined_data, daily_calories, by="Id")
 merged_data <- merge(merged_data, daily_intensities, by="Id")
-merged_data <- merge(merged_data, daily_steps, by="Id")
+merged_data <- merge(merged_data, daily_steps, by="Id") - ********
+merged_data <- merge(merged_data, weight_log, by="Id")
 
 
 
