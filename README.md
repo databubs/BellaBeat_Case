@@ -137,6 +137,9 @@ merged_data <- merge(merged_data, daily_steps, by="Id") - ********
 merged_data <- merge(merged_data, weight_log, by="Id")
 ```
 
+# Share Results (visualization)
+
+
 
 ![alt text](https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/278375259_3173522536223995_4691224045261329961_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6vzpvMf6xHgAX8vRKT0&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfAQYGXTLR97gS-fhBx9uvhlabErznUf6e1wSb-geUCNjQ&oe=64389416)
 
