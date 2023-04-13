@@ -24,27 +24,25 @@ Everything going to be anaylzed using R Studio Desktop
 ## Install packages required:
 
 ```{r}
-install.packages('tidyverse')
+install.packages('tidyverse') - For extracting data
 library(tidyverse)
 ```
-(Tidying codes)
 
 ```R
-install.packages('ggplot2')
+install.packages('ggplot2') - For visulization
 library(ggplot2)
 ```
-(Visulization charts ranging to bar, and pies.)
+
 
 ```r
-insta..packages('dplyr')
+insta..packages('dplyr') - Manipulate data
 library(dplyr)
-```
-(Filters, organizes, mutates desired columns)
-```r
-install.packages("skimr")
+``` 
+
+```r 
+install.packages("skimr") - For summarizing data
 library(skimr)
 ```
-(Reads data for cleaning quicker)
 
 
 # Prepare
@@ -131,6 +129,7 @@ Double checked colnames and made sure they are mergable ✔️
 
 # Merge
 ```r
+combined_data <- merge(sleep_day, daily_activity, by="Id")
 merged_data <- merge(combined_data, daily_calories, by="Id")
 merged_data <- merge(merged_data, daily_intensities, by="Id")
 merged_data <- merge(merged_data, daily_steps, by="Id") - ********
