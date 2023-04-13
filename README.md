@@ -138,14 +138,22 @@ merged_data <- merge(merged_data, weight_log, by="Id")
 
 # Share Results (visualization)
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Plot%20daily%20sedentary%20minutes%20and%20calories%20burned.png)
+
+
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Daily_Calories_Steps.png)
+
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/SedMinutes.png)
 
+```R
+ggplot(calories_by_activity_long, aes(x = Activity, y = Calories)) + 
+  geom_point(aes(colour = SedentaryMinutes)) + 
+  scale_colour_gradient(low = "blue", high = "red") + 
+  labs(x = "Activity", y = "Calories", colour = "Sedentary Minutes")
+```
 
-# My Conclusion
 
-In conclusion you can see that the data set
 
+Looking at our results we can see that the more active the person is the more calories they burn on a daily basis. It is quite important information if you are trying to burn some calories.
 
 
 
