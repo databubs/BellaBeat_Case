@@ -143,7 +143,9 @@ merged_data <- merge(merged_data, weight_log, by="Id")
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/TOTALSTEPS.png)
 ![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Weight_LOG.png)
 
-Suggestions:
+# My Conclusion
+
+In conclusion you can see that the data set
 
 
 
