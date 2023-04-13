@@ -129,10 +129,10 @@ Double checked colnames and made sure they are mergable ✔️
 
 # Merge
 ```r
-combined_data <- merge(sleep_day, daily_activity, by="Id")
+combined_data <- merge(sleep_day, daily_activity, by="Id") - We are merging the data we have into combined data!
 merged_data <- merge(combined_data, daily_calories, by="Id")
 merged_data <- merge(merged_data, daily_intensities, by="Id")
-merged_data <- merge(merged_data, daily_steps, by="Id") - ********
+merged_data <- merge(merged_data, daily_steps, by="Id")
 merged_data <- merge(merged_data, weight_log, by="Id")
 ```
 
