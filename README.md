@@ -159,6 +159,20 @@ ggplot(calories_by_activity_long, aes(x = Activity, y = Calories)) +
   scale_colour_gradient(low = "blue", high = "red") + 
   labs(x = "Activity", y = "Calories", colour = "Sedentary Minutes")
 ```
+![alt text](https://github.com/databubs/BellaBeat_Case/blob/main/Relationships_Activity_Calories_Burned.png)
+
+```R
+library(ggplot2)
+
+ggplot(combined_data, aes(x = SedentaryMinutes, y = Calories.x)) + 
+  geom_point(aes(color = "Sedentary")) +
+  geom_point(aes(x = LightlyActiveMinutes, color = "Lightly Active")) + 
+  geom_point(aes(x = FairlyActiveMinutes, color = "Fairly Active")) + 
+  geom_point(aes(x = VeryActiveMinutes, color = "Very Active")) + 
+  labs(x = "Activity Minutes", y = "Calories Burned", 
+       title = "Relationship between Activity Intensity and Calories Burned",
+       color = "Activity Intensity")
+```
 
 
 # Act
