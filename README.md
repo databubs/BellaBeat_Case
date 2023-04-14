@@ -161,9 +161,9 @@ ggplot(calories_by_activity_long, aes(x = Activity, y = Calories)) +
 ```
 
 
+# Act
 
-Looking at our results we can see that the more active the person is the more calories they burn on a daily basis. It is quite important information if you are trying to burn some calories.
-
+Looking at our plots we can tell that not many participants are as active as others
 
 
 
