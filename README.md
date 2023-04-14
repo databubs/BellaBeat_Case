@@ -177,7 +177,14 @@ ggplot(combined_data, aes(x = SedentaryMinutes, y = Calories.x)) +
 
 # Act
 
-Looking at our plots we can tell that not many participants are as active as others
+Looking at our plots we can tell that not many participants are as active as others and I have a few suggestions!
+
+1. Develop an alarm feature that alerts user when they should start their excercise based on a specific time
+
+2. Implement a social group where you can compete with others depending on their postal code for a giftcard certificate
+
+3. A safetey feature where if you fall or get injured there should be a button to contact near by authorities 
+
 
 
 
