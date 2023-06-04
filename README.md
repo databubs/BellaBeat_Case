@@ -175,7 +175,7 @@ ggplot(combined_data, aes(x = SedentaryMinutes, y = Calories.x)) +
 ```
 
 
-# Act
+# Act/Suggestions
 
 Looking at our plots we can tell that not many participants are as active as others and I have a few suggestions!
 
@@ -185,10 +185,6 @@ Looking at our plots we can tell that not many participants are as active as oth
 
 3. A safetey feature where if you fall or get injured there should be a button to contact near by authorities 
 
-
-
-
-![alt text](https://scontent.fyvr4-1.fna.fbcdn.net/v/t39.30808-6/278375259_3173522536223995_4691224045261329961_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6vzpvMf6xHgAX8vRKT0&_nc_ht=scontent.fyvr4-1.fna&oh=00_AfAQYGXTLR97gS-fhBx9uvhlabErznUf6e1wSb-geUCNjQ&oe=64389416)
 
                 
            
